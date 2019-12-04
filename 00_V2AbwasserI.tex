@@ -34,6 +34,7 @@ hidelinks
 
 \usepackage{graphicx}
 \graphicspath{{img/}}
+\usepackage{mhchem}
 \usepackage{fancyhdr}
 \usepackage{lmodern}
 \usepackage{color}
@@ -55,7 +56,8 @@ hidelinks
 	quotient-mode=fraction
 }
 %neue Einheiten definieren
-\DeclareSIUnit\xyz{xyz}		
+\DeclareSIUnit\xyz{xyz}	
+\DeclareSIUnit\rpm{rpm}	
 
 %Automatisch cdot statt *
 \DeclareMathSymbol{*}{\mathbin}{symbols}{"01}
@@ -108,6 +110,12 @@ hidelinks
 
 %Fußnote mit Klammer
 \renewcommand*{\thefootnote}{(\arabic{footnote})}
+
+%Abb. statt Abbildung
+\addto\captionsngerman{%
+	\renewcommand{\figurename}{Abb.}%
+	\renewcommand{\tablename}{Tab.}%
+}
 
 % ============= Package Einstellungen & Sonstiges ============= 
 %Besondere Trennungen
