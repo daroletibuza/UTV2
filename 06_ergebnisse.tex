@@ -32,7 +32,7 @@ Für die Abwasser Proben 1 bis 3 sind die wahrgenommenen Einschätzungen zu den 
 \renewcommand{\arraystretch}{1.2}
 \begin{table}[h!]
 	\centering
-	\caption{Beschreibung des Geruchs der Abwasserproben 1 bis 3}
+	\caption{Wahrgenommene Einstufungen des Geruchs der Abwasserproben 1 bis 3}
 	\label{tab:olfaktorisch_sp}
 	%\resizebox{10cm}{!}{
 	\begin{tabulary}{\textwidth}{C|CCC}
@@ -96,7 +96,7 @@ Ebenfalls aufgeführt ist die Berechnung der Konzentration an Nitrat \ce{NO3-} m
 \renewcommand{\arraystretch}{1.2}
 \begin{table}[h!]
 	\centering
-	\caption{Elektrochemische Messwerte der Abwasserproben 1 bis 3}
+	\caption{Foto-/kolorimetrisch Messwerte der Abwasserproben 1 bis 3}
 	\label{tab:fotometrisch}
 	%\resizebox{10cm}{!}{
 	\begin{tabulary}{1.2\textwidth}{L|C|C|C}
@@ -151,7 +151,7 @@ Der Messwert des Reflektometers für die verdünnte Lösung der Probe 1 ergibt f
 						&=\underline{\underline{ \SI{480}{\milli \gram \per \liter}}}
 \end{flalign} 
 
-\subsubsection{\underline{Bestimmung des TIN (total inorganic nitrogen)}}
+\subsubsection{\underline{Bestimmung des anorganisch gebundenen Gesamtstickstoffs}}
 Der gesamte anorganisch gebundene Stickstoff kann über den Masseanteil des Elementaren Stickstoffs an den einfachen anorganischen Verbindungen Nitrat-, Nitrit- und Ammoniumionen berechnet werden.\\
 Dabei kann aus dem Massenanteil des Stickstoffs am Molekül abgeleitet werden, dass $\SI{1}{\milli\gram\per\liter}$Ammoniumionen $\frac{7}{9}\si{\milli\gram\per\liter}$ anorganisch gebundenem Stickstoff entsprechen.(vgl. Gleichung 5.1)
 \begin{flalign}
@@ -160,28 +160,28 @@ Dabei kann aus dem Massenanteil des Stickstoffs am Molekül abgeleitet werden, d
 \frac{M(N)}{M(\ce{NH_4^+})} &= \frac{\SI{14}{\gram\per\mole}}{\SI{14}{\gram\per\mole}+4*\SI{1}{\gram\per\mole}} =\frac{7}{9} \approx 70,0\% 
 \end{flalign}
 
-Zur Berechnung des anorganisch gebundenen Gesamtstickstoffs können die Ionenkonzentrationen mit dem entsprechenden Umrechnungsfaktoren aufsummiert werden. Beispielhaft wird der TIN für Probe 2 mit de Reflektometerergebnissen vorgerechnet, zu sehen in den Gleichungen \ref{gl:tin1} bis \ref{gl:tin2}. Die restlichen Werte des TIN sind in Tab. \ref{tab:tin} dargestellt.
+Zur Berechnung des anorganisch gebundenen Gesamtstickstoffs können die Ionenkonzentrationen mit dem entsprechenden Umrechnungsfaktoren aufsummiert werden. Beispielhaft wird $N_{ges}$ für Probe 2 mit de Reflektometerergebnissen vorgerechnet, zu sehen in den Gleichungen \ref{gl:tin1} bis \ref{gl:tin2}. Die restlichen Werte des $N_{ges}$ sind in Tab. \ref{tab:tin} dargestellt.
 \begin{flalign}
 \label{gl:tin1}
-	TIN_i 	&= c_{(i,\ce{NO3^-})}*22,6\%+c_{(i,\ce{NO2^-})}*30,4\%+c_{(i,\ce{NH4^+})}*70,0\%\\[2mm]
+	N_{ges,i} 	&= c_{(i,\ce{NO3^-})}*22,6\%+c_{(i,\ce{NO2^-})}*30,4\%+c_{(i,\ce{NH4^+})}*70,0\%\\[2mm]
 			&= \SI{7,4}{\milli\gram\per\liter}*22,6\%+\SI{0,3}{\milli\gram\per\liter}*30,4\%+\SI{0,6}{\milli\gram\per\liter}*70,0\%\\
 			&= \SI{1,67}{\milli\gram\per\liter}+\SI{0,09}{\milli\gram\per\liter}+\SI{0,42}{\milli\gram\per\liter}\\
 \label{gl:tin2}
-	TIN_3	&=\underline{\underline{\SI{2,18}{\milli\gram\per\liter}}}
+	N_{ges,3}	&=\underline{\underline{\SI{2,18}{\milli\gram\per\liter}}}
 \end{flalign}
 
 \vspace*{-8.5mm}
 \renewcommand{\arraystretch}{1.2}
 \begin{table}[h!]
 	\centering
-	\caption{TIN der Abwasserproben 1 bis 3}
+	\caption{$N_{ges}$ der Abwasserproben 1 bis 3}
 	\label{tab:tin}
 	%\resizebox{10cm}{!}{
 	\begin{tabulary}{1.2\textwidth}{C|C|C|C}
 		\hline
 		\textbf{} 						& \textbf{Probe 1} & \textbf{Probe 2}&\textbf{Probe 3}\\
 		\hline
-		\textbf{TIN $\boldsymbol{\left[\si{\milli \gram \per \liter}\right]}$}	& 108,67\protect\footnotemark[3] & 0,77 & 2,18\\
+		\textbf{$N_{ges}$ $\boldsymbol{\left[\si{\milli \gram \per \liter}\right]}$}	& 108,67\protect\footnotemark[3] & 0,77 & 2,18\\
 		\hline
 	\end{tabulary}
 	%}
@@ -202,65 +202,178 @@ Zur Berechnung des anorganisch gebundenen Gesamtstickstoffs können die Ionenkon
 
 Beispielhaft für Reflektometerergebnisse der Probe 3 vorgerechnet:
 \begin{flalign}
-TP_i	&= c_{(i,\ce{PO4^3-})}*32,6\% \\[2mm]
-TP_3	&= \SI{27}{\milli \gram \per \liter}*32,6\%\\[2mm]
+P_{ges,i}	&= c_{(i,\ce{PO4^3-})}*32,6\% \\[2mm]
+P_{ges,3}	&= \SI{27}{\milli \gram \per \liter}*32,6\%\\[2mm]
 		&= \underline{\underline{\SI{8,8}{\milli \gram \per \liter}}}
 \end{flalign}
 
-
-
-\vspace*{-2.5mm}
+\vspace*{-3.5mm}
 \renewcommand{\arraystretch}{1.2}
 \begin{table}[h!]
 	\centering
-	\caption{TP der Abwasserproben 1 bis 3}
+	\caption{$P_{ges}$ der Abwasserproben 1 bis 3}
 	\label{tab:tp}
 	%\resizebox{10cm}{!}{
 	\begin{tabulary}{1.2\textwidth}{C|C|C|C}
 		\hline
 		\textbf{} 						& \textbf{Probe 1} & \textbf{Probe 2}&\textbf{Probe 3}\\
 		\hline
-		\textbf{TP $\boldsymbol{\left[\si{\milli \gram \per \liter}\right]}$}	& {\footnotesize kein Ergebnis\protect\footnotemark[4]} & 3,9 & 8,8\\
+		\textbf{$P_{ges}$ $\boldsymbol{\left[\si{\milli \gram \per \liter}\right]}$}	& {\footnotesize kein Ergebnis\protect\footnotemark[4]} & 3,9 & 8,8\\
 		\hline
 	\end{tabulary}
 	%}
 \end{table}
 \FloatBarrier
-\vspace*{-2.5mm}
+\vspace*{-3.5mm}
 %Tabelle Ende
 \footnotetext[4]{kein Ergebnis, da kein Messwert für den Phosphatgehalt vorhanden ist}
 
-\subsection*{Vergleich mit Mindestanforderungen für das Einleiten kommunaler Abwässer in den Vorfluter der GK 5}
-\begin{tikzpicture}
-\begin{axis}[
-xbar=1pt,% space of 0pt between adjacent bars
-bar width=11,
-width=15cm,
-height=11cm,
-%minor y tick num=4,
-xmax=110,xmin=0,
-x tick label style={/pgf/number format/.cd,%
-	scaled x ticks = false,
-	set decimal separator={,},
-	fixed},
-symbolic y coords={Probe 3,Probe 2,Probe 1,max. für GK 5},
-ytick=data,
-xtick={0,10,...,110},
-grid=major,
-%enlargelimits=0.15,
-]
-%NH4-N
-\addplot coordinates {
-	 (0,Probe 1) (1.3,Probe 2) (0.6,Probe 3) (10,max. für GK 5)
-};
-%N gesamt
-\addplot coordinates {
-	(108,Probe 1) (0.77,Probe 2) (2.18,Probe 3) (13,max. für GK 5)
-};
-%P gesamt
-\addplot coordinates {
-	(0,Probe 1) (3.9,Probe 2) (8.8,Probe 3) (1,max. für GK 5) 
-};
+%\newpage
 
-\end{axis}
-\end{tikzpicture}
+\subsection*{Gegenüberstellung der Mindestanforderungen für das Einleiten kommunaler Abwässer in den Vorfluter der GK 5 mit den Abwasserproben}
+Die Referenzwerte der Mindestanforderungen für das Einleiten kommunaler Abwässer in den Vorfluter der Größenklasse 5 ist im Anhang von \cite[S. 29]{Skript} zu finden.
+\begin{figure}[h!]
+	\begin{tikzpicture}
+	\begin{axis}[
+	xbar=1pt,% space of 0pt between adjacent bars
+	bar width=7,
+	width=15cm,
+	height=7cm,
+	%minor y tick num=4,
+	xmax=110,xmin=0,
+	x tick label style={/pgf/number format/.cd,%
+		scaled x ticks = false,
+		set decimal separator={,},
+		fixed},
+	symbolic y coords={Probe 3,Probe 2,Probe 1,max. für GK 5},
+	ytick=data,
+	%legend style={at={(0.5,-0.15)},
+	%	anchor=north,legend columns=-1},
+	xtick={0,10,...,110},
+	grid=major,
+	xlabel=Gehalt in  \si{\milli\gram\per\liter},
+	%enlargelimits=0.15,
+	]
+	%NH4-N
+	\addplot coordinates {
+		(0,Probe 1) (1.3,Probe 2) (0.6,Probe 3) (10,max. für GK 5)
+	};
+	%N gesamt
+	\addplot coordinates {
+		(108,Probe 1) (0.77,Probe 2) (2.18,Probe 3) (13,max. für GK 5)
+	};
+	%P gesamt
+	\addplot coordinates {
+		(0,Probe 1) (3.9,Probe 2) (8.8,Probe 3) (1,max. für GK 5) 
+	};
+	\legend{$NH_4-N$,$N_{ges}$,$P_{ges}$}
+	\end{axis}
+	\end{tikzpicture}
+	\caption{Gegenüberstellung der Mindestanforderungen für das Einleiten kommunaler Abwässer in den Vorfluter der GK 5 \linebreak für die Abwasserproben 1 bis 3}
+\end{figure}
+\FloatBarrier
+
+\subsubsection{Gegenüberstellung der Messwerte mit der durchschnittlichen Beschaffenheit von häuslichem Abwasser}
+
+Um die Messwerte des Versuches mit häuslichem Abwasser gegenüberzustellen wird die Tabelle Tab. \ref{label} (siehe \cite[S. 29]{Skript}) genutzt.
+
+\begin{figure}[h!]
+	\begin{tikzpicture}
+	\begin{axis}[
+	%x tick label style={
+	%	/pgf/number format/1000 sep=},
+	xtick = data,
+	ylabel=pH-Wert,
+   	enlarge x limits=0.15,
+	ybar,
+	ymin = 0,
+	ymax = 14,
+	bar width=10pt,
+	width=15cm,
+	height=9cm,
+	symbolic x coords={0,Probe 1, Probe 2,Probe 3,2,1},
+	]
+	\addplot coordinates {(Probe 1,1.7) (Probe 2,7.38) (Probe 3,7.44)};
+	\addplot[green,sharp plot,update limits=false, dashed] 
+	coordinates {(0,6.6) (1,6.6)} 
+	node[above] at (axis cs:Probe 2,6.6) {geringe Belastung};
+	\addplot[yellow,sharp plot,update limits=false, dashed] 
+	coordinates {(0,7.6) (1,7.6)} 
+	node[above] at (axis cs:Probe 2,7.6) {mittelere Belastung};
+	\addplot[red,sharp plot,update limits=false, dashed] 
+	coordinates {(0,8.6) (1,8.6)} 
+	node[above] at (axis cs:Probe 2,8.6) {starke Belastung};
+	\legend{pH-Wert}
+	\end{axis}
+	\end{tikzpicture}
+	\caption{pH-Wert-Beschaffenheit der Abwasserproben 1 bis 3}
+\end{figure}
+\FloatBarrier
+
+\begin{figure}[h!]
+	\begin{tikzpicture}
+	\begin{axis}[
+	%x tick label style={
+	%	/pgf/number format/1000 sep=},
+	xtick = data,
+	ylabel=$N_{ges}$ in \si{\milli \gram \per \liter},
+	enlarge x limits=0.15,
+	ybar,
+	ymin = 0,
+	ymax = 120,
+	bar width=10pt,
+	width=15cm,
+	height=9cm,
+	symbolic x coords={0,Probe 1, Probe 2,Probe 3,2,1},
+	]
+	\addplot coordinates {(Probe 1,108.7) (Probe 2,0.77) (Probe 3,2.18)};
+	\addplot[green,sharp plot,update limits=false, dashed] 
+	coordinates {(0,20) (1,20)} 
+	node[above] at (axis cs:Probe 2,20) {geringe Belastung};
+	\addplot[yellow,sharp plot,update limits=false, dashed] 
+	coordinates {(0,50) (1,50)} 
+	node[above] at (axis cs:Probe 2,50) {mittelere Belastung};
+	\addplot[red,sharp plot,update limits=false, dashed] 
+	coordinates {(0,85) (1,85)} 
+	node[above] at (axis cs:Probe 2,85) {starke Belastung};
+	\legend{$N_{ges}$-Wert}
+	\end{axis}
+	\end{tikzpicture}
+	\caption{$N_{ges}$-Beschaffenheit der Abwasserproben 1 bis 3}
+\end{figure}
+\FloatBarrier
+
+\begin{figure}[h!]
+	\begin{tikzpicture}
+	\begin{axis}[
+	%x tick label style={
+	%	/pgf/number format/1000 sep=},
+	xtick = data,
+	ylabel=$P_{ges}$ in \si{\milli \gram \per \liter},
+	enlarge x limits=0.15,
+	ybar,
+	ymin = 0,
+	ymax = 50,
+	bar width=10pt,
+	width=15cm,
+	height=9cm,
+	symbolic x coords={0,Probe 1, Probe 2,Probe 3,2,1},
+	]
+	\addplot coordinates {(Probe 1,0) (Probe 2,3.9) (Probe 3,8.8)};
+	\addplot[green,sharp plot,update limits=false, dashed] 
+	coordinates {(0,7) (1,7)} 
+	node[above] at (axis cs:Probe 2,7) {geringe Belastung};
+	\addplot[yellow,sharp plot,update limits=false, dashed] 
+	coordinates {(0,20) (1,20)} 
+	node[above] at (axis cs:Probe 2,20) {mittelere Belastung};
+	\addplot[red,sharp plot,update limits=false, dashed] 
+	coordinates {(0,30) (1,30)} 
+	node[above] at (axis cs:Probe 2,30) {starke Belastung};
+	\legend{$P_{ges}$-Wert}
+	\end{axis}
+	\end{tikzpicture}
+	\caption{$P_{ges}$-Beschaffenheit der Abwasserproben 1 bis 3}
+\end{figure}
+\FloatBarrier
+
+Bli bla blub

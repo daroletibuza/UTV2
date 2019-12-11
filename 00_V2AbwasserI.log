@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.18)  7 DEC 2019 17:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.18)  11 DEC 2019 15:04
 entering extended mode
 **./00_V2AbwasserI.tex
 (00_V2AbwasserI.tex
@@ -1625,21 +1625,19 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ]
 \openout2 = `02_verzeichnisse.aux'.
 
- (02_verzeichnisse.tex (00_V2AbwasserI.lof)
+ (02_verzeichnisse.tex (00_V2AbwasserI.lof
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+ \T1/lmr/m/n/12 mu-na-ler Ab-wäs-ser in den Vor-flu-ter der GK 5 
+ []
+
+)
 \tf@lof=\write6
 \openout6 = `00_V2AbwasserI.lof'.
 
  [2
 
 
-]
-(00_V2AbwasserI.lot
-Underfull \hbox (badness 2245) in paragraph at lines 7--7
- [][] [][]\T1/lmr/m/n/12 Wahrgenommene Ein-stu-fun-gen der Fär-bung und Trü-bun
-g der 
- []
-
-
+] (00_V2AbwasserI.lot
 Underfull \hbox (badness 2245) in paragraph at lines 9--9
  [][] [][]\T1/lmr/m/n/12 Wahrgenommene Ein-stu-fun-gen der Fär-bung und Trü-bun
 g der 
@@ -1700,7 +1698,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 12.
 LaTeX Font Info:    Font shape `OMS/lmr/m/sc' in size <8> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 21.
-<img/reflektometer.jpg, id=101, 3671.7175pt x 1590.94376pt>
+<img/reflektometer.jpg, id=115, 3671.7175pt x 1590.94376pt>
 File: img/reflektometer.jpg Graphic file (type jpg)
 <use img/reflektometer.jpg>
 Package pdftex.def Info: img/reflektometer.jpg  used on input line 38.
@@ -1714,7 +1712,7 @@ Package pdftex.def Info: img/reflektometer.jpg  used on input line 38.
 
  (05_durchfuerung.tex
 chapter 3.
-<img/proben.jpg, id=118, 4047.12pt x 2047.65pt>
+<img/proben.jpg, id=131, 4047.12pt x 2047.65pt>
 File: img/proben.jpg Graphic file (type jpg)
 <use img/proben.jpg>
 Package pdftex.def Info: img/proben.jpg  used on input line 31.
@@ -1741,12 +1739,12 @@ Overfull \hbox (10.48085pt too wide) in paragraph at lines 67--68
 sch mit-tels pH-Wert-Elektrode
  []
 
-<img/proben_filter.jpg, id=125, 4047.12pt x 1957.3125pt>
+<img/proben_filter.jpg, id=140, 4047.12pt x 1957.3125pt>
 File: img/proben_filter.jpg Graphic file (type jpg)
 <use img/proben_filter.jpg>
 Package pdftex.def Info: img/proben_filter.jpg  used on input line 72.
 (pdftex.def)             Requested size: 192.0548pt x 92.85384pt.
-<img/phosphat.jpg, id=127, 2982.14125pt x 1850.915pt>
+<img/phosphat.jpg, id=142, 2982.14125pt x 1850.915pt>
 File: img/phosphat.jpg Graphic file (type jpg)
 <use img/phosphat.jpg>
 Package pdftex.def Info: img/phosphat.jpg  used on input line 84.
@@ -1794,12 +1792,37 @@ k-stoffs kön-nen die
 [11]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 197.
-)
-Overfull \hbox (55.8277pt too wide) in paragraph at lines 266--172
-[] 
+
+Overfull \hbox (55.8277pt too wide) in paragraph at lines 271--272
+[][] 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--272
+[][][]|\T1/lmr/m/n/12 Ge-gen-über-stel-lung der Min-dest-an-for-de-run-gen für 
+das
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--272
+\T1/lmr/m/n/12 Ein-lei-ten kom-mu-na-ler Ab-wäs-ser in den Vor-flu-ter der GK 5
+
+ []
+
+
+Underfull \hbox (badness 2142) in paragraph at lines 234--274
+\T1/lmr/m/n/12 Die Re-fe-renz-wer-te der Min-dest-an-for-de-run-gen für das Ein
+-lei-ten kom-mu-na-ler
+ []
+
+
+LaTeX Warning: Reference `label' on page 12 undefined on input line 278.
+
 [12]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13]) [14]
 \openout2 = `07_diskussion.aux'.
 
  (07_diskussion.tex
@@ -1839,23 +1862,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-[13
+[15
 
 
 
-]) [14]
+]) [16]
 \openout2 = `011_fehlerbetrachtung.aux'.
 
  (011_fehlerbetrachtung.tex
 chapter 6.
-) [15
+) [17
 
 
 
 ]
 \openout2 = `08_literatur.aux'.
 
- (08_literatur.tex (00_V2AbwasserI.bbl)) [16
+ (08_literatur.tex (00_V2AbwasserI.bbl)) [18
 
 
 
@@ -1872,19 +1895,23 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
 Package rerunfilecheck Info: File `00_V2AbwasserI.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 186.
  ) 
 Here is how much of TeX's memory you used:
- 46974 strings out of 492452
- 1073407 string characters out of 3129810
- 1342497 words of memory out of 3000000
- 50522 multiletter control sequences out of 15000+200000
+ 47074 strings out of 492452
+ 1075616 string characters out of 3129810
+ 1354744 words of memory out of 3000000
+ 50615 multiletter control sequences out of 15000+200000
  667288 words of font info for 112 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,28n,105p,10075b,1938s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,28n,105p,10075b,2536s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
-es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fon
-ts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec
+es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
+nc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec
 .enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/lm/lmbsy10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
@@ -1900,9 +1927,9 @@ lic/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:
 MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
 sy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on 00_V2AbwasserI.pdf (17 pages, 3956239 bytes).
+Output written on 00_V2AbwasserI.pdf (19 pages, 3966446 bytes).
 PDF statistics:
- 333 PDF objects out of 1000 (max. 8388607)
- 83 named destinations out of 1000 (max. 500000)
+ 360 PDF objects out of 1000 (max. 8388607)
+ 90 named destinations out of 1000 (max. 500000)
  118 words of extra memory for PDF output out of 10000 (max. 10000000)
 
