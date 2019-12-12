@@ -4,4 +4,6 @@ Hinweise für Citavi.txt
 *.lot
 *.gz
 *.aux
+*.out
+*.lof
 *.toc
