@@ -1,2 +1,7 @@
 todo_protokoll.org
 Hinweise für Citavi.txt
+*.log
+*.lot
+*.gz
+*.aux
+*.toc
