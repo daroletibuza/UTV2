@@ -270,12 +270,35 @@ Die Referenzwerte der Mindestanforderungen für das Einleiten kommunaler Abwäss
 	\end{axis}
 	\end{tikzpicture}
 	\caption{Gegenüberstellung der Mindestanforderungen für das Einleiten kommunaler Abwässer in den Vorfluter der GK 5 \linebreak für die Abwasserproben 1 bis 3}
+	\label{Balkendiagramm}
 \end{figure}
 \FloatBarrier
 
 \subsubsection{Gegenüberstellung der Messwerte mit der durchschnittlichen Beschaffenheit von häuslichem Abwasser}
 
 Um die Messwerte des Versuches mit häuslichem Abwasser gegenüberzustellen wird die Tabelle Tab. \ref{label} (siehe \cite[S. 29]{Skript}) genutzt.
+
+%\vspace*{-2.5mm}
+\renewcommand{\arraystretch}{1.2}
+\begin{table}[h!]
+	\centering
+	\caption{Tabellarischer Vergleich der Messwerte mit den Mindestanforderungen für das Einleiten kommunaler Abwässer in den Vorfluter der GK 5}
+	\label{tab_vgl}
+	%\resizebox{10cm}{!}{
+	\begin{tabulary}{1.2\textwidth}{|l|C|C|C|}
+		\hline
+		Werte in \si{\milli\gram\per\liter} & \textbf{$NH_4^+-N$} & \textbf{$N_{ges}$}&\textbf{$P_{ges}$}\\
+		\hline
+		\textbf{Grenzwert} & \textbf{10} & \textbf{13} & \textbf{1} \\
+		\hline
+		Probe 1 & 0 & 108 & 0 \\
+		Probe 2 & 1,3 & 0,77 & 3,9 \\
+		Probe 3 & 0,6 & 2,18 & 8,8 \\
+		\hline
+	\end{tabulary}
+	%}
+\end{table}
+\FloatBarrier
 
 \begin{figure}[h!]
 	\begin{tikzpicture}

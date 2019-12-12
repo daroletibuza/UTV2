@@ -11,4 +11,4 @@
 \contentsline {subsubsection}{\nonumberline Gegenüberstellung der Messwerte mit der durchschnittlichen Beschaffenheit von häuslichem Abwasser}{13}{section*.26}% 
 \contentsline {chapter}{\numberline {5}Diskussion}{15}{chapter.5}% 
 \contentsline {chapter}{\numberline {6}Fehlerbetrachtung}{17}{chapter.6}% 
-\contentsline {chapter}{Literaturverzeichnis}{18}{chapter*.31}% 
+\contentsline {chapter}{Literaturverzeichnis}{18}{chapter*.32}% 
