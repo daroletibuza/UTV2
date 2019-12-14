@@ -5,9 +5,13 @@
 \contentsline {chapter}{\numberline {2}Geräte und Chemikalien}{6}{chapter.2}% 
 \contentsline {chapter}{\numberline {3}Durchführung}{7}{chapter.3}% 
 \contentsline {chapter}{\numberline {4}Ergebnisse}{9}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Sinnesprüfung}{9}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Elektrochemische Ergebnisse zur Abwasserbeschaffenheit}{9}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Foto- bzw. kolorimetrische Messungen zur Abwasserbeschaffenheit}{10}{section.4.3}% 
 \contentsline {subsubsection}{\nonumberline \underline {Verdünnung für Nitrat-Gehaltbestimmung der Probe 1}}{10}{section*.14}% 
 \contentsline {subsubsection}{\nonumberline \underline {Bestimmung des anorganisch gebundenen Gesamtstickstoffs}}{11}{section*.15}% 
-\contentsline {subsubsection}{\nonumberline Gegenüberstellung der Messwerte mit der durchschnittlichen Beschaffenheit von häuslichem Abwasser}{13}{section*.22}% 
+\contentsline {section}{\numberline {4.4}Gegenüberstellung der Mindestanforderungen für das Einleiten kommunaler Abwässer in einen Vorfluter der GK 5 mit den Abwasserproben}{12}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Gegenüberstellung der durchschnittlichen Beschaffenheit von häuslichem Abwasser mit den Abwasserproben}{13}{section.4.5}% 
 \contentsline {chapter}{\numberline {5}Diskussion}{15}{chapter.5}% 
 \contentsline {chapter}{\numberline {6}Fehlerbetrachtung}{18}{chapter.6}% 
-\contentsline {chapter}{Literaturverzeichnis}{19}{chapter*.27}% 
+\contentsline {chapter}{Literaturverzeichnis}{20}{chapter*.25}% 
