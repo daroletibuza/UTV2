@@ -1,14 +1,13 @@
-\babel@toc {ngerman}{}
-\contentsline {chapter}{Abbildungsverzeichnis}{2}{chapter*.4}% 
-\contentsline {chapter}{Tabellenverzeichnis}{3}{chapter*.6}% 
-\contentsline {chapter}{\nonumberline Nomenklatur}{4}{chapter*.8}% 
-\contentsline {chapter}{\numberline {1}Aufgabenstellung}{5}{chapter.1}% 
-\contentsline {chapter}{\numberline {2}Geräte und Chemikalien}{6}{chapter.2}% 
-\contentsline {chapter}{\numberline {3}Durchführung}{7}{chapter.3}% 
-\contentsline {chapter}{\numberline {4}Ergebnisse}{9}{chapter.4}% 
-\contentsline {subsubsection}{\nonumberline \underline {Verdünnung für Nitrat-Gehaltbestimmung der Probe 1}}{10}{section*.19}% 
-\contentsline {subsubsection}{\nonumberline \underline {Bestimmung des anorganisch gebundenen Gesamtstickstoffs}}{11}{section*.20}% 
-\contentsline {subsubsection}{\nonumberline Gegenüberstellung der Messwerte mit der durchschnittlichen Beschaffenheit von häuslichem Abwasser}{13}{section*.26}% 
-\contentsline {chapter}{\numberline {5}Diskussion}{15}{chapter.5}% 
-\contentsline {chapter}{\numberline {6}Fehlerbetrachtung}{17}{chapter.6}% 
-\contentsline {chapter}{Literaturverzeichnis}{18}{chapter*.32}% 
+\select@language {ngerman}
+\contentsline {chapter}{Abbildungsverzeichnis}{2}{chapter*.2}
+\contentsline {chapter}{Tabellenverzeichnis}{3}{chapter*.3}
+\contentsline {chapter}{\numberline {1}Aufgabenstellung}{4}{chapter.1}
+\contentsline {chapter}{\numberline {2}Ger\IeC {\"a}te und Chemikalien}{5}{chapter.2}
+\contentsline {chapter}{\numberline {3}Durchf\IeC {\"u}hrung}{6}{chapter.3}
+\contentsline {chapter}{\numberline {4}Ergebnisse}{8}{chapter.4}
+\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {Verd\IeC {\"u}nnung f\IeC {\"u}r Nitrat-Gehaltbestimmung der Probe 1}}\mathsurround \z@ $\relax }{9}{section*.14}
+\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {Bestimmung des anorganisch gebundenen Gesamtstickstoffs}}\mathsurround \z@ $\relax }{10}{section*.15}
+\contentsline {subsubsection}{\nonumberline Gegen\IeC {\"u}berstellung der Messwerte mit der durchschnittlichen Beschaffenheit von h\IeC {\"a}uslichem Abwasser}{12}{section*.21}
+\contentsline {chapter}{\numberline {5}Diskussion}{14}{chapter.5}
+\contentsline {chapter}{\numberline {6}Fehlerbetrachtung}{16}{chapter.6}
+\contentsline {chapter}{Literaturverzeichnis}{17}{chapter*.26}
